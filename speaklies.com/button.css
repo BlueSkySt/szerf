@@ -8,6 +8,14 @@
 	--feedback-form-input: #f4f4f4;
 } 
 
+.center-content {
+  display: grid;
+  place-content: center;
+}
+.container {
+  @extend .center-content;
+	height: 100vh;
+}
 .submit-feedback {
 	@extend .center-content;
 	padding: 10px 30px;
